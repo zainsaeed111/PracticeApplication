@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/test_nav"
+    app:startDestination="@id/nestedRecyclerView">
+
+    <fragment
+        android:id="@+id/nestedRecyclerView"
+        android:name="com.example.practiceapplication.NestedRecyclerView.NestedRecyclerView"
+        android:label="fragment_nested_recycler_view"
+        tools:layout="@layout/fragment_nested_recycler_view" />
+    <activity
+        android:id="@+id/testApi"
+        android:name="com.example.practiceapplication.testFragemntsandActivities.testApi"
+        android:label="activity_test_api"
+        tools:layout="@layout/activity_test_api" />
+</navigation>
